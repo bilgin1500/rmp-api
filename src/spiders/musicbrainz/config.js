@@ -1,0 +1,33 @@
+export default {
+  userAgent: 'RMPCrawler/1.0.0 ( bilginozkan@rolakosta.com )',
+  url: 'http://musicbrainz.org',
+  apiPath: '/ws/2',
+  apiResType: '&fmt=json',
+  endpoint: '/{endpoint}/',
+  queryCountryTr: '?query=country:tr',
+  querySearch: '?query={endpoint}:{name}%20AND%20country:tr',
+  queryOffsetLimit: '&offset={offset}&limit={limit}',
+  includes: '?inc={inc}',
+  excludedUrls: [
+    'viaf',
+    'myspace',
+    'other databases',
+    'wikidata',
+    'purchase for download',
+    'discography',
+    'biography',
+    'lyrics',
+    'imdb',
+    'image',
+    'bbc music page',
+    'interview',
+    'purchase for mail-order',
+    'fanpage',
+    'purevolume',
+    'songkick',
+    'download for free',
+    'blog',
+    'online community',
+    'imslp'
+  ]
+};
